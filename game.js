@@ -94,8 +94,8 @@ Sprite = function () {
 
   this.children = {};
 
-  this.color    = 'black';
-  this.solid    = false;
+  this.color    = 'Yellow';
+  this.solid    = true;
   this.visible  = false;
   this.reap     = false;
   this.bridgesH = true;
@@ -1124,8 +1124,7 @@ $(function () {
   Game.canvasHeight = canvas.height();
 
   var context = canvas[0].getContext("2d");
-  context.fillStyle="Yellow";
-  context.fill();
+ 
   Text.context = context;
   Text.face = vector_battle;
 
