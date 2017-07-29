@@ -1124,7 +1124,8 @@ $(function () {
   Game.canvasHeight = canvas.height();
 
   var context = canvas[0].getContext("2d");
-
+  context.fillStyle="Yellow";
+  context.fill();
   Text.context = context;
   Text.face = vector_battle;
 
